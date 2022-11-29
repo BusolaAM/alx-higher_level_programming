@@ -2,6 +2,8 @@
 
 In this project, I demonstrate conditionals and loops in Python by using if, if ... else, break, continue, pass, and range statements with while and for loops. Moreover, I practiced writing user defined (my own) Python functions while learning about scope of variables, tracebacks, and arithmetic operators.
 
+You will find the Function Prototypes in the lists.h file.
+
 ```0-positive_or_negative.py```
 Positive anything is better than negative nothing
 
