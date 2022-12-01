@@ -7,3 +7,7 @@ In this project, I learn how to use the python interpreter, and practicing print
 ``0x01. Python - if/else, loops, functions``
 
 In this project, I demonstrate conditionals and loops in Python by using if, if ... else, break, continue, pass, and range statements with while and for loops. Moreover, I practiced writing user defined (my own) Python functions while learning about scope of variables, tracebacks, and arithmetic operators.
+
+```0x02. Python - import & modules```
+
+In this project, I learned about importing and using functions and creating modules in Python.
