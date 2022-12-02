@@ -11,3 +11,7 @@ In this project, I demonstrate conditionals and loops in Python by using if, if 
 ```0x02. Python - import & modules```
 
 In this project, I learned about importing and using functions and creating modules in Python.
+
+```0x03-python-data_structures```
+
+In this project, I understand and practiced the python data structures: List and tuples.
