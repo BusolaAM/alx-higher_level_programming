@@ -26,9 +26,9 @@
 
 | 103-python.c |                  ---     | void print_python_list(PyObject *p);          |
 
-                                  ---     | void print_python_bytes(PyObject*p);          |
+                                          | void print_python_bytes(PyObject*p);          |
 
-                                  ---     | void print_python_float(PyObject *p);         |
+                                          | void print_python_float(PyObject *p);         |
 
 In this project, I learned handling errors and exceptions in Python with try and except.
 
