@@ -1,12 +1,8 @@
--- uses the hbtn_0d_tvshows database to list all genres not linked to the show Dexter
--- uses a database to list all rows not linked to one row
-SELECT name
-FROM tv_genres
-WHERE name NOT IN
-(SELECT name
-FROM tv_genres
-LEFT JOIN tv_show_genres ON tv_genres.id = tv_show_genres.genre_id
-LEFT JOIN tv_shows ON tv_show_genres.show_id = tv_shows.id
-WHERE tv_shows.title = 'Dexter')
-GROUP BY name
-ORDER BY name ASC;
+-- lists all shows from hbtn_0d_tvshows_rate by their rating
+-- lists all rows of a table by the sum of a linked row
+SELECT title, SUM(tv_show_ratings.rate) 'rating'
+FROM tv_shows
+LEFT JOIN tv_show_ratings ON tv_show_ratings.show_id = tv_shows.id
+GROUP BY title
+ORDER BY rating DESC;
+
